@@ -109,12 +109,4 @@ export const AvalancheNetworkInfo: NetworkInfo = {
   blurb: '',
 }
 
-export const SUPPORTED_NETWORK_VERSIONS: NetworkInfo[] = [
-  EthereumNetworkInfo,
-  PolygonNetworkInfo,
-  OptimismNetworkInfo,
-  ArbitrumNetworkInfo,
-  CeloNetworkInfo,
-  BNBNetworkInfo,
-  AvalancheNetworkInfo,
-]
+export const SUPPORTED_NETWORK_VERSIONS: NetworkInfo[] = [PolygonNetworkInfo]

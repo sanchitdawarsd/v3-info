@@ -21,7 +21,7 @@ export const blockClient = new ApolloClient({
 })
 
 export const client = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3',
+  uri: 'https://api.thegraph.com/subgraphs/name/ruvlol/univ3-test',
   cache: new InMemoryCache({
     typePolicies: {
       Token: {
@@ -221,7 +221,7 @@ export const optimismBlockClient = new ApolloClient({
 })
 
 export const polygonClient = new ApolloClient({
-  uri: 'https://api.thegraph.com/subgraphs/name/ianlapham/uniswap-v3-polygon',
+  uri: 'https://api.thegraph.com/subgraphs/name/ruvlol/univ3-test',
   cache: new InMemoryCache({
     typePolicies: {
       Token: {
