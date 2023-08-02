@@ -147,6 +147,6 @@ export default function CurrencyLogo({
   if (activeNetwork === OptimismNetworkInfo && address === '0x4200000000000000000000000000000000000006') {
     return <StyledEthereumLogo src={EthereumLogo} size={size} style={style} {...rest} />
   }
-
+  console.log('logo', srcs)
   return <StyledLogo size={size} srcs={srcs} alt={'token logo'} style={style} {...rest} />
 }
