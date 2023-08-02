@@ -133,7 +133,7 @@ export function useDataClient(): ApolloClient<NormalizedCacheObject> {
   const [activeNetwork] = useActiveNetworkVersion()
   switch (activeNetwork.id) {
     case SupportedNetwork.ETHEREUM:
-      return client
+      return polygonClient
     case SupportedNetwork.ARBITRUM:
       return arbitrumClient
     case SupportedNetwork.OPTIMISM:
